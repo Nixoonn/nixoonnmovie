@@ -1,0 +1,81 @@
+<html><head>
+    <meta charset="UTF-8">
+    <title>Starleaks.pl - Najlepsze filmy!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f3f3f3;
+        }
+
+        .movie-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .movie-list-item {
+            margin: 10px;
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .movie-list-item a {
+            text-decoration: none;
+            color: #333;
+            font-size: 20px;
+            display: block;
+            transform-origin: right;
+            transition: transform 0.3s, color 0.5s;
+        }
+
+        .movie-list-item:hover {
+            transform: perspective(800px) rotateY(-20deg) scale(1.1);
+        }
+
+        .movie-list-item:hover a {
+            transform: rotateY(20deg);
+        }
+
+        .color-btn {
+            margin-top: 10px;
+            cursor: pointer;
+            padding: 5px 10px;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+    
+    </style>
+</head>
+
+<body>
+    <h1 id="header">Wybierz film:</h1>
+    <ul class="movie-list">
+        <li class="movie-list-item"><a href="wonka.html">Wonka (2023)</a></li>
+     
+    </ul>
+
+   
+
+    <script>
+        function proceedToContent() {
+            alert("Przechodzisz do zawartości strony!");
+            document.querySelector('.age-verification').style.display = 'none';
+        }
+
+        function closePage() {
+            window.close();
+        }
+    </script>
+
+
+</body></html>
