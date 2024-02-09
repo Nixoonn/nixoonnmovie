@@ -12,10 +12,11 @@
             height: 100vh;
             background-color: #f3f3f3;
         }
-
+        
         .movie-list {
             list-style-type: none;
             padding: 0;
+            color: white;
         }
 
         .movie-list-item {
@@ -24,11 +25,15 @@
             display: inline-block;
             overflow: hidden;
             transition: transform 0.3s;
+            background-color: rgb(73, 14, 107);
+            border-radius: 20px;
+            
+            padding: 5px;
         }
 
         .movie-list-item a {
             text-decoration: none;
-            color: #333;
+            color: #D0A2FF;
             font-size: 20px;
             display: block;
             transform-origin: right;
@@ -62,8 +67,8 @@
 <link rel="shortcut icon" type="x-icon" href="img/logo.png">
 </head>
 
-<body>
-    <h1 id="header">Wybierz film:</h1>
+<body style="background-color: rgb(27, 27, 27);">
+    <h1 id="header" style="color: #ffffff;">Wybierz film:</h1>
     <ul class="movie-list">
       
         <li class="movie-list-item"><a href="spmb.html">Świąteczna przygoda małego Batmana (2023)</a></li>
@@ -75,7 +80,7 @@
          <li class="movie-list-item"><a href="batmanisupermanbitwasupersynow.html">Batman i Superman: Bitwa supersynów</a></li>
          <li class="movie-list-item"><a href="toystory4.html">Toy Story 4</a></li>
     </ul>
-   <h1 id="header">Telewizja na żywo:</h1>
+   <h1 id="header" style="color: #ffffff;">Telewizja na żywo:</h1>
      <ul class="movie-list">
         <li class="movie-list-item"><a href="https://nixoonntv.netlify.app/cn">Cartoon Network</a></li>
         <li class="movie-list-item"><a href="https://nixoonntv.netlify.app/nickelodeon">Nickelodeon</a></li>
