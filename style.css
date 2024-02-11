@@ -95,6 +95,22 @@ body {
 
 h2 {
 color: #ffffff;
+}
 
+.comics-container {
+    width: 540px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #242424;
+}
 
+.comics-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #272727;
+    border-bottom: 2px solid #353535;
 }
