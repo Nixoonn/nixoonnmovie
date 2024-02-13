@@ -114,3 +114,14 @@ color: #ffffff;
     background-color: #272727;
     border-bottom: 2px solid #353535;
 }
+/*Castomowy scrollbar*/
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #d1e5ff;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#642bff, #ff22e6)
+    border-radius: 10px;
+}
