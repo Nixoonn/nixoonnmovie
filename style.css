@@ -220,3 +220,15 @@ color: #ffffff;
     transition: transform 0.3s, color 0.5s;
     
 }
+
+::-webkit-scrollbar{
+width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+border-radius: 20px;
+background: gray}
+
+::-webkit-scrollbar-track{
+    background: transparent;
+}
