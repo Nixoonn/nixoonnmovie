@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Skontaktuj się</title>
-	<link rel="shortcut icon" type="x-icon" href="logo.png">
+	<link rel="shortcut icon" type="x-icon" href="img/logo.png">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
@@ -37,7 +37,7 @@ body{
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: url("img/bg.jpg") no-repeat center;
+	background: url("img/bg.png") no-repeat center;
 	background-size: cover;
 	filter: blur(50px);
 	z-index: -1;
@@ -49,12 +49,12 @@ body{
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	background-color: #fff;
+	background-color: #grey;
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 }
 
 .left{
-	background: url("img/bg.jpg") no-repeat center;
+	background: url("img/bg.png") no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
@@ -78,7 +78,7 @@ h2:after{
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #2ecc71;
+    background-color: rgb(73, 14, 107);
 }
 
 .field{
@@ -103,7 +103,7 @@ textarea{
 .btn{
 	width: 100%;
 	padding: 0.5rem 1rem;
-	background-color: #2ecc71;
+	background-color: rgb(73, 14, 107);
 	color: #fff;
 	font-size: 1.1rem;
 	border: none;
@@ -140,16 +140,14 @@ textarea{
 			<div class="left"></div>
 			<div class="right">
 				<h2>Skontaktuj się</h2>
-			<form
-				  action="https://formspree.io/f/mzboajgo"
-				  method="POST"
-			>
+			<form name="kontakt" netlify>
 			<label>
-				<input type="Name" class="field" name="Imie" placeholder="Twoje imię">
+				<input type="Name" class="field" name="Discord" placeholder="Nazwa discord">
 			</label>
 			<label>
 				<input type="email" class="field" name="email" placeholder="Twój e-mail">
 			</label>
+				
 			<label>
 				<textarea placeholder="Wiadomość" name="message" class="field"></textarea>
 			</label>
