@@ -243,4 +243,12 @@ background: gray}
     
     padding: 5px;
 }
-
+.series-list-item a {
+    text-decoration: none;
+    color: #D0A2FF;
+    font-size: 15px;
+    display: block;
+    transform-origin: right;
+    transition: transform 0.3s, color 0.5s;
+    
+}
