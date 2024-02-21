@@ -232,3 +232,15 @@ background: gray}
 ::-webkit-scrollbar-track{
     background: transparent;
 }
+.series-list-item {
+    margin: 7px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: transform 0.3s;
+    background-color: rgb(73, 14, 107);
+    border-radius: 15px;
+    
+    padding: 5px;
+}
+
