@@ -71,7 +71,7 @@ body {
     padding: 1.25rem 4%;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   #menu-icon {
     display: block;
   }
