@@ -333,10 +333,11 @@ footer {
 width: 10px;
 }
 
+::-webkit-scrollbar-track{
+    background: yellow;
+}
+
 ::-webkit-scrollbar-thumb{
 border-radius: 20px;
 background: gray}
 
-::-webkit-scrollbar-track{
-    background: transparent;
-}
