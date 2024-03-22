@@ -329,3 +329,14 @@ footer {
         height: 35px;
     }
 }
+::-webkit-scrollbar{
+width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+border-radius: 20px;
+background: gray}
+
+::-webkit-scrollbar-track{
+    background: transparent;
+}
